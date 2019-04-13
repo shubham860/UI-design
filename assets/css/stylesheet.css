@@ -56,12 +56,11 @@ body {
   text-decoration: none;
   outline: 0;
   background-color: #ddd;
-
+  width:70%;
 }
 
 .se .search-container button {
-  padding: 6px 10px;
-  margin-left: 26px;
+  margin-left: 10px;
   background: #ddd;
   font-size: 17px;
   border: none;
@@ -94,7 +93,6 @@ body {
     background-color: #ddd;
     border-radius: 20px;
   }
-
 }
 
 
@@ -102,10 +100,14 @@ body {
 
 .images{
    overflow-x:scroll;
-   margin-top:45px;
+   margin-top:25px;
 }
 .img1{
   padding:17px;
+}
+
+.border{
+  border:4px solid black;
 }
 
 
@@ -115,6 +117,7 @@ body {
       width:150px;
       cursor:pointer;
     }
+
     #imgsize:hover{
       height:150px;
       width:150px;
@@ -127,21 +130,6 @@ body {
       font-weight: 700;
       margin-left: 60px;
     }
-}
-
-
-/* allgroup */
-@media (min-width: 600px){
-.all{
-  margin-top:45px;
-  margin-left: 130px;
-}
-}
-
-@media (max-width: 600px){
-.all{
-  margin-top:45px;
-}
 }
 
 @media (max-width: 600px){
@@ -157,10 +145,28 @@ body {
       cursor:pointer;
     }
     .heads{
-      text-align: center;
+      margin-left: 30px;
       font-weight: 700;
     }
 }
+
+
+/* allgroup */
+@media (min-width: 600px){
+.all{
+  margin-top:25px;
+  margin-left: 130px;
+}
+}
+
+@media (max-width: 600px){
+.all{
+  margin-top:25px;
+  margin-left:-25px;
+}
+}
+
+
 
 /*----scrollbar----*/
  /* width */
