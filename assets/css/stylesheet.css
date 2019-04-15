@@ -25,7 +25,7 @@ body {
 
 
   /*for  plethora info*/
-  @media (min-width: 600px){
+  @media (min-width: 1026px){
     .info{
       text-align: center;
       margin-top: 15px;
@@ -33,7 +33,7 @@ body {
     }
   }
 
-  @media (max-width: 600px){
+  @media (max-width: 1026px){
     .info{
       text-align: center;
       margin-top: 15px;
@@ -49,7 +49,7 @@ body {
 
 
 /* for search bar*/
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1026px){
   .search-container{
     margin-top: 30px;
     background-color: #f1f1f1;
@@ -85,7 +85,7 @@ body {
   outline: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1026px) {
   .se .search-container {
     float: none;
   }
@@ -122,7 +122,7 @@ body {
 }
 
 
-@media (min-width: 600px){
+@media (min-width: 1026px){
     #imgsize{
       height:150px;
       width:150px;
@@ -142,7 +142,7 @@ body {
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 1026px){
     #imgsize{
       height:90px;
       width:90px;
@@ -163,7 +163,7 @@ body {
 
 
 /* allgroup */
-@media (min-width: 600px){
+@media (min-width: 1026px){
 .groups{
       margin-top: 30px;
   }
@@ -172,17 +172,53 @@ body {
   margin-left: 150px;
 }
 .headi{
+  padding-top: 7px;
   font-weight: 700;
+}
+.one,.two,.three{
+  margin-top: 40px;
+}
+#imgsizes{
+  height:150px;
+  width:150px;
+  margin-left: 10px ;
+  cursor:pointer;
+}
+
+#imgsizes:hover{
+  height:150px;
+  width:150px;
+  margin-left: 10px;
+  border: 4px solid #1a8cff;
+  cursor: pointer;
 }
 }
 
-@media (max-width: 600px){
+@media (max-width: 1026px){
 .all{
   margin-top:25px;
+  margin: auto;
 }
 .headi{
   font-weight: 700;
   text-align: center;
+  padding-top: 7px;
+}
+.one,.two,.three{
+  margin-top: 40px;
+}
+#imgsizes{
+  height:90px;
+  width:90px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+#imgsizes:hover{
+  height:90px;
+  width:90px;
+  border:4px solid #1a8cff;
+  cursor:pointer;
+  margin-left: 5px;
 }
 }
 
