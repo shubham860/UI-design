@@ -11,7 +11,8 @@ body {
   }
 
 
-/*for h2 heading*/
+/*for name info*/
+  @media (min-width: 1026px){
   .head{
     text-align: center;
     margin-top: 50px;
@@ -22,7 +23,20 @@ body {
     margin-top: 25px;
     font-weight: 700;
   }
+}
 
+@media (max-width: 1026px){
+.head{
+  text-align: center;
+  margin-top: 35px;
+  font-weight: 700;
+}
+.headss{
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+}
 
   /*for  plethora info*/
   @media (min-width: 1026px){
@@ -137,7 +151,6 @@ body {
 
     }
     .heads{
-      font-weight: 700;
       text-align: center;
     }
 
@@ -157,8 +170,6 @@ body {
     }
     .heads{
       text-align: center;
-      font-weight: 700;
-
     }
 }
 
@@ -174,7 +185,6 @@ body {
 }
 .headi{
   padding-top: 7px;
-  font-weight: 700;
 }
 .one,.two,.three{
   margin-top: 40px;
@@ -201,7 +211,6 @@ body {
   margin: auto;
 }
 .headi{
-  font-weight: 700;
   text-align: center;
   padding-top: 7px;
 }
