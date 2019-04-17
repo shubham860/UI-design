@@ -151,6 +151,7 @@ body {
 
     }
     .heads{
+      margin-top: 10px;
       text-align: center;
     }
 
@@ -169,7 +170,9 @@ body {
       cursor:pointer;
     }
     .heads{
+      margin-top:10px;
       text-align: center;
+      font-size: 14px;
     }
 }
 
@@ -184,7 +187,7 @@ body {
   margin-left: 150px;
 }
 .headi{
-  padding-top: 7px;
+  padding-top: 10px;
 }
 .one,.two,.three{
   margin-top: 40px;
@@ -213,6 +216,7 @@ body {
 .headi{
   text-align: center;
   padding-top: 7px;
+  font-size: 14px;
 }
 .one,.two,.three{
   margin-top: 40px;
