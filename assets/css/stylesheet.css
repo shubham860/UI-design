@@ -12,11 +12,11 @@ body {
 
 
 .border{
-  border: 4px solid #1a8cff !important;
+  border: 2px solid #1a8cff;
   cursor: pointer;
 }
 .border:hover{
-  border: 4px solid #1a8cff;
+  border: 2px solid #1a8cff;
   cursor: pointer;
 }
 
@@ -154,9 +154,6 @@ body {
   padding:17px;
 }
 
-.border{
-  border:4px solid black;
-}
 
 
 @media (min-width: 1026px){
@@ -164,14 +161,15 @@ body {
       height:135px;
       width:135px;
       cursor:pointer;
+      padding:5px;
     }
 
     .myimg:hover{
       height:135px;
       width:135px;
-      border: 4px solid #1a8cff;
+      border: 2px solid #1a8cff;
       cursor: pointer;
-
+      padding:5px;
     }
     .heads{
       margin-top: 10px;
@@ -185,12 +183,14 @@ body {
       height:95px;
       width:95px;
       cursor: pointer;
+      padding:5px;
     }
     .myimg:hover{
       height:95px;
       width:95px;
-      border:4px solid #1a8cff;
+      border:2px solid #1a8cff;
       cursor:pointer;
+      padding:5px;
     }
     .heads{
       margin-top:10px;
@@ -220,14 +220,16 @@ body {
   width:130px;
   margin-left: 15px ;
   cursor:pointer;
+  padding:5px;
 }
 
 .myimgs:hover{
   height:130px;
   width:130px;
   margin-left: 15px;
-  border: 4px solid #1a8cff;
+  border: 2px solid #1a8cff;
   cursor: pointer;
+  padding:5px;
 }
 }
 
@@ -253,13 +255,15 @@ body {
   width:80px;
   cursor: pointer;
   margin-left: 5px;
+  padding:5px;
 }
 .myimgs:hover{
   height:80px;
   width:80px;
-  border:4px solid #1a8cff;
+  border:2px solid #1a8cff;
   cursor:pointer;
   margin-left: 5px;
+  padding:5px;
 }
 }
 
@@ -281,3 +285,40 @@ body {
   background: #ffffff;
   border-radius: 0px;
  }
+
+
+ /* for marker */
+@media (min-width: 1026px){
+.marker{
+  background-color:#1a8cff;
+  color:white;
+  border:1px solid #1a8cff;
+  border-radius:10px;
+  font-size:11px;
+  float: right;
+}
+.icon{
+  margin-right: 140px;
+ }
+}
+
+
+.hidden{
+  display: none;
+}
+
+@media (max-width: 1026px){
+.marker{
+  background-color:#1a8cff;
+  color:white;
+  border:1px solid #1a8cff;
+  border-radius:10px;
+  font-size:10px;
+  float: right;
+}
+.icon{
+  display: grid;
+  justify-content: center;
+  margin-left: 80px;
+}
+}

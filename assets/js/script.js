@@ -1,10 +1,14 @@
 $('.myimg').click(function(){
  $(this).toggleClass("border");
+ $(this).prev().toggleClass("hidden");
 });
 
+
 $('.myimgs').click(function(){
- $(this).toggleClass("border");
+  $(this).toggleClass("border");
+  $(this).parent().prev().child().toggleClass("hidden");
 });
+
 
 
 //Script courtesy
