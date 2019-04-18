@@ -1,10 +1,13 @@
-function tab() {
-  var element = document.getElementById("imgsizes");
-  element.classList.toggle("border");
-}
+$('.myimg').click(function(){
+ $(this).toggleClass("border");
+});
+
+$('.myimgs').click(function(){
+ $(this).toggleClass("border");
+});
 
 
-//Script courtesy of BoogieJack.com
+//Script courtesy
 var message="NoRightClicking";
 function defeatIE() {if (document.all) {(message);return false;}}
 function defeatNS(e) {if

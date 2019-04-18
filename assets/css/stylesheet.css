@@ -11,6 +11,15 @@ body {
   }
 
 
+.border{
+  border: 4px solid #1a8cff !important;
+  cursor: pointer;
+}
+.border:hover{
+  border: 4px solid #1a8cff;
+  cursor: pointer;
+}
+
 /*for name info*/
   @media (min-width: 1026px){
   .head{
@@ -151,13 +160,13 @@ body {
 
 
 @media (min-width: 1026px){
-    #imgsize{
+    .myimg{
       height:135px;
       width:135px;
       cursor:pointer;
     }
 
-    #imgsize:hover{
+    .myimg:hover{
       height:135px;
       width:135px;
       border: 4px solid #1a8cff;
@@ -172,12 +181,12 @@ body {
 }
 
 @media (max-width: 1026px){
-    #imgsize{
+    .myimg{
       height:95px;
       width:95px;
       cursor: pointer;
     }
-    #imgsize:hover{
+    .myimg:hover{
       height:95px;
       width:95px;
       border:4px solid #1a8cff;
@@ -206,14 +215,14 @@ body {
 .one,.two,.three{
   margin-top: 40px;
 }
-#imgsizes{
+.myimgs{
   height:130px;
   width:130px;
   margin-left: 15px ;
   cursor:pointer;
 }
 
-#imgsizes:hover{
+.myimgs:hover{
   height:130px;
   width:130px;
   margin-left: 15px;
@@ -239,13 +248,13 @@ body {
   display: flex;
   justify-content: center;
 }
-#imgsizes{
+.myimgs{
   height:80px;
   width:80px;
   cursor: pointer;
   margin-left: 5px;
 }
-#imgsizes:hover{
+.myimgs:hover{
   height:80px;
   width:80px;
   border:4px solid #1a8cff;
