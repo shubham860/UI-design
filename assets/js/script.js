@@ -1,15 +1,14 @@
-// for border
+// border for trending row
 $('.myimg').click(function(){
  $(this).toggleClass("border");
  $(this).prev().toggleClass("hidden");
 });
 
-
+// border for all groups row
 $('.myimgs').click(function(){
   $(this).toggleClass("border");
   $(this).parent().siblings(".icon").children().toggleClass("hidden");
 });
-
 
 
 //Script courtesy
