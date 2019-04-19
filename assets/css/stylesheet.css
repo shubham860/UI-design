@@ -10,7 +10,7 @@ body {
     line-height: 1.42857143;
   }
 
-
+/* images border property */
 .border{
   border: 1.5px solid #2f6ce5;
   cursor: pointer;
@@ -19,6 +19,7 @@ body {
   border: 1.5px solid #2f6ce5;
   cursor: pointer;
 }
+/* images border property  ends*/
 
 /*for name info*/
   @media (min-width: 1026px){
@@ -60,29 +61,33 @@ body {
   font-size: 20px;
 }
 }
+/*for name info ends*/
 
-  /*for  plethora info*/
-  @media (min-width: 1026px){
-    .info{
-      text-align: center;
-      margin-top: 15px;
-      color:#8c8c8c;;
-    }
+
+/*for  plethora info*/
+@media (min-width: 1026px){
+  .info{
+    text-align: center;
+    margin-top: 15px;
+    color:#8c8c8c;;
+  }
+}
+
+@media (max-width: 1026px){
+  .info{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color:#8c8c8c;
+  }
+}
+  /* for emoji */
+  #emoji{
+    font-size:21px;
+    margin-top:-6px
   }
 
-  @media (max-width: 1026px){
-    .info{
-      text-align: center;
-      margin-top: 15px;
-      font-size: 13px;
-      color:#8c8c8c;
-    }
-}
-    /* for emoji */
-    #emoji{
-      font-size:21px;
-      margin-top:-6px
-    }
+/*for  plethora info ends*/
 
 
 /* for search bar*/
@@ -142,10 +147,9 @@ body {
     border-radius: 20px;
   }
 }
-
+/* for search bar ends*/
 
 /* trending groups */
-
 .images{
    overflow-x:scroll;
    margin-top:25px;
@@ -203,7 +207,7 @@ body {
       font-size: 14px;
     }
 }
-
+/* trending groups ends*/
 
 /* allgroup */
 @media (min-width: 1026px){
@@ -271,7 +275,7 @@ body {
   padding:6px;
 }
 }
-
+/* allgroup ends*/
 
 
 /*----scrollbar----*/
@@ -343,3 +347,4 @@ body {
   margin-left: 80px;
 }
 }
+/* marker ends */
