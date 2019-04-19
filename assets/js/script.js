@@ -6,7 +6,7 @@ $('.myimg').click(function(){
 
 $('.myimgs').click(function(){
   $(this).toggleClass("border");
-  $(this).parent().prev().child().toggleClass("hidden");
+  $(this).parent().siblings(".icon").children().toggleClass("hidden");
 });
 
 
