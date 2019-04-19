@@ -1,3 +1,4 @@
+// for border
 $('.myimg').click(function(){
  $(this).toggleClass("border");
  $(this).prev().toggleClass("hidden");
